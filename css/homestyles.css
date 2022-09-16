@@ -1,0 +1,40 @@
+header h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    word-spacing: 1em;
+    letter-spacing: 1mm;
+    color: #281e5d;
+    margin-left: auto;
+    margin-right: auto;
+}
+main nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+main nav ul li {
+    display: list-item;
+    margin-left: auto;
+    margin-right: auto;
+}
+main nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-size: larger;
+}
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #d4ecc7;
+}
+a:link {
+    color: #e99b9a;
+}
+a:hover {
+    color: #94bb86;
+}
+
+a:visited {
+    color: #e99b9a;
+}
