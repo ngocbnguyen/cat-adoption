@@ -10,20 +10,14 @@ header h1 {
 .navbar {
     list-style-type: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-main nav ul li {
-    display: list-item;
-    margin-left: auto;
-    margin-right: auto;
-}
-main nav ul li a {
+    justify-content: space-evenly;
+  }
+  
+  .navbar li a {
     text-decoration: none;
-    text-align: center;
-    font-family: 'Concert One', cursive;
+    font-family: "Concert One", cursive;
     font-size: larger;
-}
+  }
 
 * {
     font-family: 'Titillium Web', sans-serif;
