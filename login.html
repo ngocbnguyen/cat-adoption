@@ -18,7 +18,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <title>Log In</title>
 </head>
-<body>
+<body class="text-center">
     <header>
         <h1>&#9829; FRIENDS  CATTERY &#9829;</h1>
 
@@ -33,19 +33,28 @@
                 <li><a href="./checkout.html">Adopt Form</a></li>
             </ul>
         </nav>
-        <form method="post">
-            <label>
-                User Name: <br>
-                <input name="username" type="text" placeholder="User Name">
-            </label>
-            <br>
-            <label>
-                Password: <br>
-                <input name="password" type="password" placeholder="Password">
-            </label>
-            <br>
-            <input type="submit" value="LOGIN">
-        </form>
+        <main class="form-signin w-100 m-auto">
+            <form>
+              <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+          
+              <div class="form-floating border border-bottom-0 border-success">
+                <input type="username" class="form-control" id="floatingInput" placeholder="username">
+                <label for="floatingInput">Username</label>
+              </div>
+              <div class="form-floating mb-1 border border-success">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+          
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="w-100 bg-success text-white btn btn-lg btn-outline-dark" type="submit">Sign in</button>
+              <p class="mt-5 mb-3 text-muted">© ngocattery 2022</p>
+            </form>
+          </main>
     </main>
 </body>
 </html>
