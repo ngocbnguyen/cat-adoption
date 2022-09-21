@@ -9,18 +9,27 @@ header h1 {
     margin-bottom: 0rem;
     line-height: 2.2;
 }
+body {
+    --bs-body-line-height: 1.1 !important
+}
+.text {
+    background-color: white;
+    font-size: larger;
+}
 .navbar {
     margin-left: 2em;
     margin-right: 2em;
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around !important;
+    background-color:beige;
   }
   
   .navbar li a {
     text-decoration: none;
     font-family: "Concert One", cursive;
     font-size: larger;
+    background-color: beige;
   }
 * {
     font-family: 'Titillium Web', sans-serif;
