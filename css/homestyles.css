@@ -9,6 +9,17 @@ header h1 {
     margin-bottom: 0rem;
     line-height: 2.2;
 }
+.card-body, .card-img-top, div .card {
+    background: beige; !important
+}
+.card-title {
+    font-family: 'Pacifico', cursive;
+    color:#60698a;
+    font-size:x-large;
+}
+.row {
+    justify-content: space-evenly;!important
+}
 html, body, main, header {
     background: #d4ecc7;
     --bs-body-line-height: 1.1 !important
@@ -22,6 +33,7 @@ html, body, main, header {
     margin-right: 2em;
     list-style-type: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-around !important;
     background-color:beige;
   }
