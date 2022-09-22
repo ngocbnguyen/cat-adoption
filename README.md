@@ -11,8 +11,8 @@ html, body, main, header {
 - Advice: Use the universal rule sparingly.
 </br>
 </br>
-2. Image don't fill up the who top of product card: @catprofile.html
-- There were spaces both left and right of the image.
-- What we did: Inspect the card, try applying margin/ padding, try unapplying Bootstrap rules.
-- The problem: .row gutter was 1.5 by default
-- Solution: Apply class g-0 to the rows (Bootstrap 5)
+2. Image don't fill up the who top of product card: @catprofile.html </br>
+- There were spaces both left and right of the image. </br>
+- What we did: Inspect the card, try applying margin/ padding, try unapplying Bootstrap rules. </br>
+- The problem: .row gutter was 1.5 by default. </br>
+- Solution: Apply class g-0 to the rows (Bootstrap 5). </br>
