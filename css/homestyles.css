@@ -10,7 +10,7 @@ header h1 {
     line-height: 2.2;
 }
 .card-body, .card-img-top, div .card {
-    background: beige; !important
+    background: beige; 
 }
 .card-title {
     font-family: 'Pacifico', cursive;
@@ -18,7 +18,7 @@ header h1 {
     font-size:x-large;
 }
 .row {
-    justify-content: space-evenly;!important
+    justify-content: space-evenly;
 }
 html, body, main, header {
     background: #d4ecc7;
